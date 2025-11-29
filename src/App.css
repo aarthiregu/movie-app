@@ -1,0 +1,39 @@
+/* ========== GLOBAL STYLES ========== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Center content */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+
+/* ========== NAVBAR ========== */
+.nav {
+  display: flex;
+  gap: 25px;
+  background-color: #222;
+  padding: 15px 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav a:hover {
+  color: #ffcc00;
+}
+
+
+/* ========== MOVIE GRID ========== */
+.movie-grid {
+  display:
