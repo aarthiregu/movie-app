@@ -1,16 +1,20 @@
-# React + Vite
+📺 Movie App – React + Tailwind + TVMaze API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Movie App is a responsive web application built using React, React Router, and Tailwind CSS, designed to browse TV shows and explore details fetched from the TVMaze API.
+🚀 Features
+Displays TV shows fetched from the TVMaze API
 
-Currently, two official plugins are available:
+Responsive grid (2 columns on mobile → 5 columns on large screens)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Tech Stack
+TechnologyPurposeReactFrontend FrameworkReact RouterRouting & Dynamic PagesTailwind CSSUI StylingTVMaze APITV Show DataViteFast development & build too.
 
-## React Compiler
+📱 Responsive Design
+The entire app is optimized for:
+Mobile
+Tablet
+Desktop
+Tailwind utility classes ensure smooth scaling on every device.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
